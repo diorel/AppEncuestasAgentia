@@ -136,6 +136,7 @@
     <Content Include="less\creative.less" />
     <Content Include="less\mixins.less" />
     <Content Include="less\variables.less" />
+    <Content Include="MaquetaCuastionarioApp.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -163,6 +164,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="img\header.jpg" />
+    <Content Include="img\headerold.jpg" />
     <Content Include="img\portfolio\1.jpg" />
     <Content Include="img\portfolio\2.jpg" />
     <Content Include="img\portfolio\3.jpg" />
@@ -170,6 +172,7 @@
     <Content Include="img\portfolio\5.jpg" />
     <Content Include="img\portfolio\6.jpg" />
     <Content Include="index.html" />
+    <Content Include="indexaspx.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\cbpAnimatedHeader.js" />
@@ -186,6 +189,20 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="indexaspx.aspx.cs">
+      <DependentUpon>indexaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="indexaspx.aspx.designer.cs">
+      <DependentUpon>indexaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MaquetaCuastionarioApp.Master.cs">
+      <DependentUpon>MaquetaCuastionarioApp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MaquetaCuastionarioApp.Master.designer.cs">
+      <DependentUpon>MaquetaCuastionarioApp.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
