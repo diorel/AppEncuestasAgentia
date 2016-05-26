@@ -11,7 +11,7 @@ namespace AppEncuestas
 {
 
 
-    public partial class indexaspx
+    public partial class Formulario1
     {
     }
 }

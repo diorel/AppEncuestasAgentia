@@ -10,7 +10,7 @@
 namespace AppEncuestas {
     
     
-    public partial class MaquetaCuastionarioApp {
+    public partial class MaquetaFormularios {
         
         /// <summary>
         /// form1 control.

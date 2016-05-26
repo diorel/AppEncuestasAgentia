@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace AppEncuestas
 {
-    public partial class indexaspx : System.Web.UI.Page
+    public partial class MaquetaFormularios : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

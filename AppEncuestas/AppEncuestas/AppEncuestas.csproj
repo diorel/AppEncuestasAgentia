@@ -94,10 +94,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\EstiloMaster.css" />
+    <Content Include="css\FomularioEstilo.css" />
     <Content Include="css\form-elements.css" />
     <Content Include="css\style.css" />
     <Content Include="DatosEmpresa.aspx" />
+    <Content Include="Formulario1.aspx" />
     <Content Include="img\LogoAgentia.png" />
+    <Content Include="img\logoSatisfaccion.png" />
+    <Content Include="img\tabla1.png" />
+    <Content Include="index.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -140,7 +146,7 @@
     <Content Include="less\creative.less" />
     <Content Include="less\mixins.less" />
     <Content Include="less\variables.less" />
-    <Content Include="MaquetaCuastionarioApp.Master" />
+    <Content Include="MaquetaFormularios.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -176,7 +182,6 @@
     <Content Include="img\portfolio\5.jpg" />
     <Content Include="img\portfolio\6.jpg" />
     <Content Include="index.html" />
-    <Content Include="indexaspx.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\cbpAnimatedHeader.js" />
@@ -198,22 +203,29 @@
     <Compile Include="DatosEmpresa.aspx.designer.cs">
       <DependentUpon>DatosEmpresa.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formulario1.aspx.cs">
+      <DependentUpon>Formulario1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formulario1.aspx.designer.cs">
+      <DependentUpon>Formulario1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="indexaspx.aspx.cs">
-      <DependentUpon>indexaspx.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="indexaspx.aspx.designer.cs">
-      <DependentUpon>indexaspx.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MaquetaCuastionarioApp.Master.cs">
-      <DependentUpon>MaquetaCuastionarioApp.Master</DependentUpon>
+    <Compile Include="MaquetaFormularios.Master.cs">
+      <DependentUpon>MaquetaFormularios.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MaquetaCuastionarioApp.Master.designer.cs">
-      <DependentUpon>MaquetaCuastionarioApp.Master</DependentUpon>
+    <Compile Include="MaquetaFormularios.Master.designer.cs">
+      <DependentUpon>MaquetaFormularios.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

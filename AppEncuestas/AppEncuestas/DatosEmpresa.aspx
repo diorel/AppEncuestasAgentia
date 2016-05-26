@@ -39,37 +39,81 @@
    <style>
        h2
        {
-           color: #D68500;
-           font-size:45px;  
-           font-family:fantasy ;            
+           color: #A5C613;
+           font-size:18px;  
+           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;            
        }
-
        header
        {
-           padding-top: 2%;
+           padding-top: 1%;
        }
    </style>
 
 </head>
-
-
-    
-
 <body id="page-top">
     <header>
         <div class="header-co<ntent">
-            <div class="header-content-inner">
-                <h2>PORQUE TU OPINIÓN ES IMPORTANTE PARA NOSOTROS</h2>
+            <div style="align-items:flex-end">
+
+              <img src="img/LogoAgentia.png" style="width:200px; height:50px;" />
+               
+                 </div>
                 <hr>
-                <img src="img/LogoAgentia.png" />
-              <div class="row">
+
+<%--           en esta parte incia el carrucel --%>
+
+<div  style="width:300px; height:150px;" >
+   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+      	<h3>Caption Text</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+      	<h3>Caption Text</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+      	<h3>Caption Text</h3>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
+
+    </div>
+<%--           en esta parte incia el carrucel --%>
+              
+
+              <div class="row" style="margin-top:0;">
                         <div class="col-sm-6 col-sm-offset-3 form-box">
                         	<div class="form-top">
                         		<div class="form-top-left">
-                        			<h3>Ingresa tus datos</h3>                                  
+                                     <h2>"PORQUE TU OPINIÓN ES IMPORTANTE PARA NOSOTROS"</h2>
+                        		<p>ingrese su informacion</p>                                                                   
                         		</div>
                         		<div class="form-top-right">
-                                    
                         		</div>
                             </div>
                             <div class="form-bottom" >
@@ -88,15 +132,13 @@
 			                    		<label class="sr-only" for="form-username">Correo</label>
 			                        	<input type="text" name="form-username" placeholder="Correo..." class="form-username form-control" id="form-username">
 			                        </div>
-			                     
-			
                                     <button type="submit" style="background-color:#D68500" class="btn">Entrar</button>
 			                    </form>
 		                    </div>
                         </div>
                     </div>
             </div>
-        </div>
+        
     </header>
 
     <!-- jQuery -->
