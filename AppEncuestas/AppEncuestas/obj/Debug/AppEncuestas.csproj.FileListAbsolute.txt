@@ -14,5 +14,6 @@ C:\Users\raul.cortes\Documents\GitHub\AppEncuestasAgentia\AppEncuestas\AppEncues
 C:\Users\raul.cortes\Documents\GitHub\AppEncuestasAgentia\AppEncuestas\AppEncuestas\bin\AppEncuestas.dll.config
 C:\Users\raul.cortes\Documents\GitHub\AppEncuestasAgentia\AppEncuestas\AppEncuestas\bin\AppEncuestas.dll
 C:\Users\raul.cortes\Documents\GitHub\AppEncuestasAgentia\AppEncuestas\AppEncuestas\bin\AppEncuestas.pdb
+C:\Users\raul.cortes\Documents\GitHub\AppEncuestasAgentia\AppEncuestas\AppEncuestas\obj\Debug\AppEncuestas.csprojResolveAssemblyReference.cache
 C:\Users\raul.cortes\Documents\GitHub\AppEncuestasAgentia\AppEncuestas\AppEncuestas\obj\Debug\AppEncuestas.dll
 C:\Users\raul.cortes\Documents\GitHub\AppEncuestasAgentia\AppEncuestas\AppEncuestas\obj\Debug\AppEncuestas.pdb
