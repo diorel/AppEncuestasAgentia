@@ -100,9 +100,11 @@
     <Content Include="css\style.css" />
     <Content Include="DatosEmpresa.aspx" />
     <Content Include="Formulario1.aspx" />
+    <Content Include="formulario2aspx.aspx" />
     <Content Include="img\LogoAgentia.png" />
     <Content Include="img\logoSatisfaccion.png" />
     <Content Include="img\tabla1.png" />
+    <Content Include="img\tbala2.png" />
     <Content Include="index.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -209,6 +211,13 @@
     </Compile>
     <Compile Include="Formulario1.aspx.designer.cs">
       <DependentUpon>Formulario1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formulario2aspx.aspx.cs">
+      <DependentUpon>formulario2aspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="formulario2aspx.aspx.designer.cs">
+      <DependentUpon>formulario2aspx.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
