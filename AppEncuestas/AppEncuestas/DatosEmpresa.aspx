@@ -51,18 +51,20 @@
 
 </head>
 <body id="page-top">
+   
     <header>
         <div class="header-co<ntent">
             <div style="align-items:flex-end">
+                  <div id="logo" style="padding-right:80%;">
+        <img src="img/LogoAgentia.png" style="height:70px;" />
 
-              <img src="img/LogoAgentia.png" style="width:200px; height:50px;" />
-               
+     </div>
                  </div>
-                <hr>
-
+             
+<div id="Carrucel" style="padding-left:28%;">
 <%--           en esta parte incia el carrucel --%>
 
-<div  style="width:300px; height:150px;" >
+<div  style="width:600px; height:150px;" >
    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -103,14 +105,14 @@
 </div> <!-- Carousel -->
 
     </div>
-<%--           en esta parte incia el carrucel --%>
-              
+<%--           en esta parte Finaliza el carrucel --%>
+ </div>      
+  
 
               <div class="row" style="margin-top:0;">
-                        <div class="col-sm-6 col-sm-offset-3 form-box">
+                        <div class="col-sm-6 col-sm-offset-3 form-box" >
                         	<div class="form-top">
                         		<div class="form-top-left">
-                                     <h2>"PORQUE TU OPINIÓN ES IMPORTANTE PARA NOSOTROS"</h2>
                         		<p>ingrese su informacion</p>                                                                   
                         		</div>
                         		<div class="form-top-right">
@@ -132,7 +134,7 @@
 			                    		<label class="sr-only" for="form-username">Correo</label>
 			                        	<input type="text" name="form-username" placeholder="Correo..." class="form-username form-control" id="form-username">
 			                        </div>
-                                    <button type="submit" style="background-color:#D68500" class="btn">Entrar</button>
+                                    <button type="submit" style="background-color:#D68500" class="btn" onClick=" window.location.href='..Formulario1.aspx' ">>Entrar</button>
 			                    </form>
 		                    </div>
                         </div>
@@ -140,6 +142,7 @@
             </div>
         
     </header>
+     
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

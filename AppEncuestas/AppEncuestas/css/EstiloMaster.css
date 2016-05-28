@@ -1,6 +1,6 @@
 ﻿body 
 {
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
 }
 header
 {
@@ -16,8 +16,6 @@ nav
 {
     background-color:orange;
 }
-
-
 li
 {
     color:#FFFFFD;
@@ -27,12 +25,11 @@ a
     color:#FFFFFD;
 }
 
-
 section#Contenedor
 {
     padding-left:10%;
     padding-right:10%;
-
+    box-shadow: 10px 10px 5px #888;
 }
 footer
 {
